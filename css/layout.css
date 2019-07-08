@@ -7,8 +7,6 @@
 #slider-wrapper{
 	overflow: hidden;
 	margin-top: 150px;
-	border-top: 10px solid green;
-	border-bottom: 10px solid green;
 	height: 400px;
 	width: 400px;
 	position: relative;
@@ -27,26 +25,25 @@
 	position: absolute;
 	z-index: 20;
 	display: block;
-	top: 50%;
+	top: 45%;
 	transform: translateY(-25px);
 	
 }
 
 #right_slide_button{
+	text-decoration: none;
 	width: 10%;
 	float: right;
-	background-color: lightgrey;
-	opacity: 0.5;
-	height: 50px;
+	font-size: 90px;
+	color: white;
 }
 
 #left_slide_button{
+	font-size: 90px;
+	text-decoration: none;
 	width: 10%;
 	float: left;
-	background-color: lightgrey;
-	opacity: 0.5;
-	height: 50px;
-
+	color: white;
 }
 
 .slide_button:hover{

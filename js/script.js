@@ -49,10 +49,13 @@ slider_wrapper.appendChild(buttons_overlay);
 
 var left_slide_button=document.createElement("a");
 left_slide_button.id="left_slide_button";
+left_slide_button.innerHTML="<";
 left_slide_button.href="#";
 
 var right_slide_button=document.createElement("a");
 right_slide_button.id="right_slide_button";
+right_slide_button.innerHTML=">";
+
 right_slide_button.href="#";
 buttons_overlay.appendChild(left_slide_button);
 buttons_overlay.appendChild(right_slide_button);
